@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "llamainstakill",
+  "version": "${version}",
+  "name": "LlamaInstaKill",
+  "description": "Llama's spit instantly kill you!",
+  "authors": [
+    "Kaishibi"
+  ],
+  "contact": {
+    "website": "https://minecraft-modding-archive.vercel.app/"
+  },
+  "license": "MIT",
+  "icon": "assets/llamainstakill/icon.png",
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "llamainstakill.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "minecraft": "1.19.3"
+  }
+}
